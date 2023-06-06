@@ -1,3 +1,7 @@
 {
-	"extends": "@bitomic/eslint-config"
+	"extends": "@bitomic/eslint-config",
+	"rules": {
+		"@typescript-eslint/no-misused-promises": "off",
+		"no-console": "off"
+	}
 }
